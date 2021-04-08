@@ -1,7 +1,39 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 2rem;
+}
+
+body {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+nav a {
+  color: #0074d9;
+  font-size: 1.125rem;
+}
+
+header {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  padding: 1rem;
 }
