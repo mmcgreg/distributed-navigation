@@ -19,6 +19,7 @@ body {
 
 a {
   text-decoration: none;
+  padding: 1rem;
 }
 
 a:hover {
@@ -56,4 +57,5 @@ header img {
 }
 
 header h1 {
+  gap: 1rem;
 }
